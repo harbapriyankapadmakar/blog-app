@@ -1,0 +1,48 @@
+body
+{
+    padding: 5px;
+    margin: auto;
+    background-color: rgb(42, 165, 58);
+}
+h1{
+    text-align: center;
+}
+#parent {
+	display: flex;
+	flex-direction: row;
+	justify-content :2px;
+}
+.container
+{ 
+     max-width: 300px; 
+    padding: 10px;
+    background-color: white;
+     margin-left: 100px;
+}
+/* .rightcontainer
+{ 
+    /* max-width: 500px; 
+    padding: 10px;
+    background-color: white;
+    margin-left: 100px;
+   flex:1;
+} */
+
+div{
+    padding: 10px;
+    /* border: 1px solid #53ff59; */
+    padding:2px;
+    margin: 2px;
+}
+input
+{
+    padding:2px;
+    margin: auto;
+    
+}
+button
+{
+    margin: 3px;
+    padding: 2px;
+    background-color: aqua;
+}

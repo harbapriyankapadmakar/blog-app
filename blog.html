@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./blog.css">
+</head>
+<body>
+    <h1>Create A Blog </h1>
+   
+    <div id="parent">
+    <div class="leftcontainer" id="containerid">
+           <form action="/expense/add-expense" method="post" onsubmit="addUsers(event)">
+           
+            <div class="title">
+                <label>BlogTitle</label><br>
+                <input type="text" name="title" id="titleid">
+            </div>
+            <div class="author">
+                <label>BlogAuthor</label><br>
+                <input type="text" name="author" id="authorid">
+            </div>
+            <div class="description">
+                <label>Choose a description</label><br>
+                <input type="text" name="description" id="desid">
+            </div>
+           
+           
+           
+                 <button type="submit">Create Blog</button>
+           </form>
+        </div> 
+          <ol>
+           <div class="rightcontainer" id="containerid">  
+            <div id="expenses">
+                 <div id="listofexpenses">
+                 <!-- <button onclick="comment()">Leave a comment  </button> -->
+            <div id="comments"></div>
+            <div id="comments_and_replies"></div>
+           </div>
+         </div>
+        </div>
+    </ol> 
+           </div>
+          
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+
+ <script src="./blog.js"></script>
+ 
+</body>
+</html>
